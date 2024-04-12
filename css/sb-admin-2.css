@@ -12648,7 +12648,7 @@ a img {
 }
 
 .logo h1 {
-  font-size: 29px;
+  font-size: 27px;
   font-weight: 450;
   color: #151D48;
   margin: auto;
@@ -12700,15 +12700,15 @@ a img {
 
 .reports {
   background-color: #fff !important;
-  padding: 25px;
-  margin: 15px;
+  padding: 30px 18px;
+  margin: 11px;
   border-radius: 17px;
 }
 
 .subheading {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
-  line-height: 32px;
+  line-height: 13px;
   text-align: left;
   color: #05004E;
   margin-bottom: 0px;
@@ -12716,7 +12716,7 @@ a img {
 }
 
 .reports .sales {
-font-size: 16px;
+font-size: 12px;
 font-weight: 400;
 line-height: 30px;
 text-align: left;
@@ -12750,10 +12750,10 @@ color: #737791;
 
 .reports-icons {
   border-radius: 19px;
-  padding: 5px 10px;
+  Padding:6px 8px;
   margin-bottom: 10px;
-  width: 39px;
-  height: 36px;
+  width: 35px;
+  height: 35px;
 }
 .card1 .reports-icons{
   background-color: #FA5A7D;
@@ -12775,26 +12775,31 @@ color: #737791;
 
 .card-body .numbers {
   font-weight: 600;
+  font-size: 17px;
 }
+
 
 .card-body .caption {
   font-family: Poppins;
-  font-size: 14px;
-  line-height: 24px;
-  text-align: left;
-  color: #425166;
+    font-size: 10px;
+    line-height: 17px;
+    text-align: left;
+    color: #425166;
 
 }
 
 .card-body .blue-text {
 
   font-family: Poppins;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 500;
   line-height: 16px;
   text-align: left;
   color: #4079ED;
 
+}
+.Service_text{
+  font-size: 13px;
 }
 
 /* css for minicard */
@@ -12803,7 +12808,7 @@ color: #737791;
   align-items: center;
   border-radius: 10px;
   padding: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
  background-color: #F8F8F8;
  
 
@@ -12811,8 +12816,8 @@ color: #737791;
 
 .mini-card img {
   border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     margin-right: 20px;
 }
 
@@ -12821,17 +12826,16 @@ color: #737791;
 }
 
 .mini-card h5 {
-font-size: 16px;
-font-weight: 600;
-line-height: 28px;
-letter-spacing: -0.02em;
-text-align: left;
-color: #2B3674;
-margin-bottom:0px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: left;
+  color: #2B3674;
+  margin-bottom: 0px;
 }
 .job_role{
-font-size: 12px;
-line-height: 20px;
+font-size: 10px;
+line-height: 17px;
 letter-spacing: -0.02em;
 text-align: left;
 color: #A3AED0;
@@ -12861,15 +12865,19 @@ color: #A3AED0;
 }
 .filter-list{
   font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-color: #444A6D;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  color: #444A6D;
+  margin: 0px;
 }
 
 /* style for date input */
-input .date{
-  color:red;
+input[type=text] {
+  color: #0F3659;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 3px;
 }
 
 
@@ -12879,9 +12887,9 @@ input .date{
 
 
 table.table-bordered.dataTable tbody th, table.table-bordered.dataTable tbody td{
-  font-size: 14px;
+font-size: 10px;
 font-weight: 400;
-line-height: 20px;
+line-height: 12px;
 text-align: left;
 color: #444A6D;
 }
@@ -12889,10 +12897,20 @@ color: #444A6D;
 table.dataTable>thead>tr>th{
   font-style: normal;
 font-weight: 400;
-font-size: 13px;
+font-size: 11px;
 line-height: 16px;
 color: #96A5B8;
 }
 .table thead th{
   border-bottom: 0px;
+}
+table.dataTable td{
+  font-size: 12px;
+}
+table.dataTable th{
+font-size: 12px;
+font-weight: normal;
+}
+.dataTables_length{
+  font-size: 13px;
 }
